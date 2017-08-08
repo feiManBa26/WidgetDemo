@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,13 +7,42 @@
     android:layout_height="match_parent"
     tools:context="com.growing.widgetdemo.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
 
-</android.support.constraint.ConstraintLayout>
+    <FrameLayout
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center">
+
+        <widgetdemo.growing.com.uiwidgetlibrary.mywdiget.uiwidget.progress.GapRoundProgressBar
+            android:id="@+id/round_bar"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:insideWidth="220"
+            app:ringDiameterWidth="60"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#506946"
+                android:textSize="80sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分"
+                android:layout_gravity="center"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>
