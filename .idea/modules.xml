@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WidgetDemo.iml" filepath="$PROJECT_DIR$/WidgetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipetoloadibrary/swipetoloadibrary.iml" filepath="$PROJECT_DIR$/swipetoloadibrary/swipetoloadibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/uiwidgetlibrary/uiwidgetlibrary.iml" filepath="$PROJECT_DIR$/uiwidgetlibrary/uiwidgetlibrary.iml" />
     </modules>
   </component>
