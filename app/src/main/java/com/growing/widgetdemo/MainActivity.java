@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import widgetdemo.growing.com.uiwidgetlibrary.mywdiget.uiwidget.progress.GapRoundProgressBar;
+import widgetdemo.growing.com.uiwidgetlibrary.mywdiget.progress.GapRoundProgressBar;
 
 public class MainActivity extends AppCompatActivity {
     GapRoundProgressBar mProgressBar;

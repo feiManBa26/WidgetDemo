@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UIWidgetLibrary</string>
+    <string name="only_have_one_camera">只有一个摄像头不允许切换</string>
+    <string name="dont_have_front_camera">当前设备没有前置摄像头</string>
+    <string name="changing_flashLight_mode">切换闪光灯模式失败</string>
+    <string name="camera_Authority_no">获取相机权限失败</string>
+    <string name="fail_when_camera_try_autofocus">对焦失败:%1$s</string>
 </resources>
