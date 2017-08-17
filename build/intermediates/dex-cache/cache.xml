@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\WidgetDemo\swipetoloadibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="645a8f600fa6e2353fcc6417d2f5ebfe9b6d2a02">
+        <dex dex="D:\WidgetDemo\app\build\intermediates\pre-dexed\debug\classes_ad8a972760fcc848bc95505be26eb092deeba28d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\WidgetDemo\uiwidgetlibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="019e1fa68251c1e16883592ec288b2539b4e509b">
+        <dex dex="D:\WidgetDemo\app\build\intermediates\pre-dexed\debug\classes_df634f4940c991866589b71f44c3ad23186e3239.jar" />
+    </item>
+
+</items>

@@ -3,10 +3,7 @@ package com.growing.widgetdemo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.View;
 import android.widget.ImageView;
-
-import widgetdemo.growing.com.uiwidgetlibrary.mywdiget.camera.RecodingCameraActivity;
 
 /**
  * Created by 明正 on 2017/8/6.
@@ -20,9 +17,9 @@ public class ScreenshotsActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_screenshots);
-        mImageView = (ImageView) findViewById(R.id.img_timg);
-        mImageView1 = (ImageView) findViewById(R.id.img_timg1);
+        setContentView(R.layout.activity_layer_test);
+//        mImageView = (ImageView) findViewById(R.id.img_timg);
+//        mImageView1 = (ImageView) findViewById(R.id.img_timg1);
 //        new Thread(new Runnable() {
 //            @Override
 //            public void run() {
@@ -44,7 +41,7 @@ public class ScreenshotsActivity extends Activity {
 //        }).start();
     }
 
-    public void onScreen(View view) {
-        RecodingCameraActivity.startActivityForResult(this);
-    }
+//    public void onScreen(View view) {
+//        RecodingCameraActivity.startActivityForResult(this);
+//    }
 }
